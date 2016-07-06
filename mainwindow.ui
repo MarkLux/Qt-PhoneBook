@@ -6,12 +6,24 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>565</width>
-    <height>624</height>
+    <width>580</width>
+    <height>620</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>580</width>
+    <height>620</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>580</width>
+    <height>620</height>
+   </size>
+  </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>简易电话本</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QListWidget" name="listWidget">
@@ -76,6 +88,21 @@
      <string>查找</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>380</y>
+      <width>91</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>简易电话本
+MarkLux
+作品</string>
+    </property>
+   </widget>
    <widget class="QPushButton" name="saveButton">
     <property name="geometry">
      <rect>
@@ -89,16 +116,6 @@
      <string>保存</string>
     </property>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menuBar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>565</width>
-     <height>30</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
  </widget>

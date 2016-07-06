@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "querydialog.h"
+#include <QFile>
 
 namespace Ui {
 class MainWindow;
@@ -28,8 +29,11 @@ private slots:
 
     void on_queryButton_clicked();
 
+    void on_saveButton_clicked();
+
 private:
     Ui::MainWindow *ui;
+    QFile file;
     QueryDialog qdlg;
 };
 
